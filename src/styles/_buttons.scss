@@ -1,0 +1,17 @@
+.btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+
+    &.--primary {
+        background-color: var(--primary);
+        color: #fff;
+    }
+
+    &.--simple {
+        color: var(--primary);
+    }
+}

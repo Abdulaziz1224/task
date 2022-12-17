@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: var(--light-bg);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.page {
+    display: flex;
+
+    &__container {
+        padding: 32px;
+    }
+}
+
+main {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.--primary-bg {
+    background-color: var(--primary);
+}
+
+.--primary-color {
+    color: var(--primary);
+}

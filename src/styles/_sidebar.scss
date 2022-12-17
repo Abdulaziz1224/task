@@ -1,0 +1,42 @@
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 256px;
+    min-height: 100vh;
+    background-color: var(--side-bg);
+
+    a {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 16px 24px;
+        color: #fff;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-left: 24px;
+        height: 88px;
+        box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.1);
+    }
+
+    &__icon {
+        display: flex;
+        align-items: center;
+    }
+
+    &__suppurt-logo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 16px 24px 24px;
+        color: #fff;
+        opacity: 0.6;
+    }
+}

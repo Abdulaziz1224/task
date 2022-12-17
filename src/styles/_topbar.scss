@@ -1,0 +1,63 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    padding: 0 32px;
+    background-color: #fff;
+
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.08);
+
+    &__balance {
+        display: flex;
+        gap: 10px;
+
+        &-wallet {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: var(--icon-bg);
+        }
+
+        &-amount {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &__icons {
+        display: flex;
+        gap: 40px;
+
+        &-notification {
+            position: relative;
+        }
+
+        &-notification::after {
+            content: "";
+            display: block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            position: absolute;
+            top: 2px;
+            right: 2px;
+
+            background-color: #FE346E;
+        }
+    }
+}
